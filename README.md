@@ -31,7 +31,7 @@ dataset_personagens/
 └── ...
 
 ## Como Executar o Projeto
-
+```bash
 1. **Clone o repositório:**
 
 ```bash
@@ -40,7 +40,7 @@ git clone https://github.com/dede0702/Homer-vs-Bart-CNN.git
 Instale as dependências:
 
 pip install -r requirements.txt
-content_copy
+
 
 Baixe o dataset: (https://github.com/dede0702/Homer-vs-Bart-CNN/blob/6142766d5348364639aae58a89963679c798d733/dataset_personagens.zip)
 
@@ -51,6 +51,7 @@ O modelo alcançou uma acurácia de [insira a acurácia aqui]% no conjunto de te
 Visualização
 
 O código inclui uma função para visualizar as predições do modelo em algumas imagens do conjunto de teste. As imagens e as predições serão exibidas em uma janela matplotlib.
+```
 
 Contribuições
 
