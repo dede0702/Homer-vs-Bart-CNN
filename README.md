@@ -31,11 +31,12 @@ dataset_personagens/
 ├── bart_imagem2.jpg
 └── ...
 
+
 ## Como Executar o Projeto
+
 ```
 1. **Clone o repositório:**
 
-```bash
 git clone https://github.com/dede0702/Homer-vs-Bart-CNN.git
 
 Instale as dependências:
