@@ -12,6 +12,7 @@ O dataset utilizado neste projeto consiste em imagens dos personagens Homer e Ba
 
 
 dataset_personagens/
+
 ├── training_set/
 │ ├── homer/
 │ │ ├── homer_imagem1.jpg
@@ -22,10 +23,12 @@ dataset_personagens/
 │ ├── bart_imagem2.jpg
 │ └── ...
 └── test_set/
+
 ├── homer/
 │ ├── homer_imagem1.jpg
 │ ├── homer_imagem2.jpg
 │ │ └── ...
+
 └── bart/
 ├── bart_imagem1.jpg
 ├── bart_imagem2.jpg
