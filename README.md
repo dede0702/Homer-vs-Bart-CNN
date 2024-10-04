@@ -10,6 +10,7 @@ Este projeto demonstra como construir e treinar uma CNN para classificação de 
 
 O dataset utilizado neste projeto consiste em imagens dos personagens Homer e Bart Simpson, organizadas em pastas separadas para treino e teste. A estrutura do dataset é a seguinte:
 
+
 dataset_personagens/
 ├── training_set/
 │ ├── homer/
@@ -31,7 +32,7 @@ dataset_personagens/
 └── ...
 
 ## Como Executar o Projeto
-```bash
+```
 1. **Clone o repositório:**
 
 ```bash
