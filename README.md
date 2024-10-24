@@ -4,29 +4,34 @@ Este projeto utiliza redes neurais convolucionais (CNN) para a classificação d
 
 ## Pré-requisitos
 
-Antes de rodar este projeto, certifique-se de que possui as seguintes bibliotecas instaladas:
+Certifique-se de que as seguintes bibliotecas estão instaladas. Para facilitar o processo, foi gerado o arquivo `requirements.txt`, que contém todas as dependências necessárias para rodar o projeto.
 
-- Python 3.x
-- TensorFlow
-- Keras
-- scikit-learn
-- Matplotlib
-- NumPy
-- OpenCV (opcional, caso queira aprimorar a visualização com retângulos ao redor dos personagens)
+### Instalação das dependências
 
-Para instalar as bibliotecas necessárias, utilize o seguinte comando:
+1. Clone o repositório do projeto para o seu ambiente local:
 
 ```bash
-pip install tensorflow keras scikit-learn matplotlib numpy opencv-python
+git clone <URL_do_Repositorio>
+```
+
+2. Navegue até o diretório do projeto:
+
+```bash
+cd Homer_vs_Bart_CNN
+```
+
+3. Utilize o `pip` para instalar as dependências:
+
+```bash
+pip install -r requirements.txt
 ```
 
 ## Estrutura do Projeto
 
-O projeto está estruturado da seguinte forma:
-
 - `dataset/`: Pasta contendo as imagens de treino e teste dos personagens Homer e Bart.
 - `Homer_vs_Bart_CNN.ipynb`: Arquivo Jupyter Notebook com o código principal para o treinamento e avaliação do modelo.
 - `model/`: Diretório onde o modelo treinado é salvo.
+- `requirements.txt`: Arquivo que lista todas as bibliotecas e dependências necessárias para rodar o projeto.
 
 ## Funcionamento do Código
 
@@ -35,13 +40,13 @@ O modelo é baseado em uma rede neural convolucional (CNN) construída com o Ker
 1. Pré-processamento dos Dados: As imagens são carregadas e redimensionadas para o formato esperado pela CNN.
 2. Divisão do Dataset: Utiliza-se a função `train_test_split` do scikit-learn para dividir os dados em conjuntos de treino e teste.
 3. Criação da CNN: O modelo CNN é construído com camadas convolucionais e pooling, seguido de camadas densas para a classificação.
-4. Treinamento: O modelo é treinado com os dados de treino, com o uso de técnicas de augmentação de imagens para melhorar a generalização.
-5. Avaliação: O modelo é avaliado no conjunto de teste para medir a sua precisão.
-6. Predição e Visualização: Após o treinamento, o modelo faz previsões sobre novas imagens e exibe a imagem do personagem identificado, destacando com um retângulo ao redor.
+4. Treinamento: O modelo é treinado com os dados de treino, utilizando augmentação de imagens para melhorar a generalização.
+5. Avaliação: O modelo é avaliado no conjunto de teste para medir sua precisão.
+6. Predição e Visualização: Após o treinamento, o modelo faz previsões sobre novas imagens e exibe a imagem do personagem identificado, destacando-o com um retângulo ao redor.
 
 ## Erro Comum: Importação
 
-Durante a execução, você pode encontrar erros de importação relacionados ao `reportMissingImports`. Para corrigir esse erro, certifique-se de que todas as bibliotecas necessárias estão instaladas corretamente. Utilize um ambiente virtual (virtualenv) para garantir que as dependências estão organizadas.
+Durante a execução, você pode encontrar erros de importação relacionados ao `reportMissingImports`. Para corrigir esse erro, certifique-se de que todas as bibliotecas estão instaladas corretamente. Recomenda-se o uso de um ambiente virtual (virtualenv) para organizar as dependências.
 
 ## Como Executar o Projeto
 
@@ -57,13 +62,19 @@ git clone <URL_do_Repositorio>
 cd Homer_vs_Bart_CNN
 ```
 
-3. Abra o arquivo `Homer_vs_Bart_CNN.ipynb` no Jupyter Notebook:
+3. Instale as dependências:
+
+```bash
+pip install -r requirements.txt
+```
+
+4. Abra o arquivo `Homer_vs_Bart_CNN.ipynb` no Jupyter Notebook:
 
 ```bash
 jupyter notebook Homer_vs_Bart_CNN.ipynb
 ```
 
-4. Execute todas as células para treinar o modelo e visualizar os resultados.
+5. Execute todas as células para treinar o modelo e visualizar os resultados.
 
 ## Melhorias Futuras
 
@@ -87,4 +98,4 @@ Sinta-se à vontade para contribuir com este projeto. Para fazer isso, siga os p
 
 ---
 
-Com essas sugestões de melhorias, seu projeto pode evoluir bastante e ganhar mais funcionalidades e robustez. Se precisar de mais alguma alteração ou detalhe específico, estou à disposição!
+Com essas informações, o README está mais completo e inclui os detalhes sobre o uso do arquivo `requirements.txt`. Se precisar de mais algum ajuste ou adicionar outra seção, estou à disposição!
